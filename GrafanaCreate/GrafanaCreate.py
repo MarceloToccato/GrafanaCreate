@@ -7,8 +7,8 @@
 
 
 
-Hostgroup = 'TOCCATO'  # Altere para o grupo de host que seu host se encontra'
-Hostname = 'TOCCATO - qdidemo01.toccato.demo' # Altere para o nome do seu Host 
+Hostgroup = ''  # Altere para o grupo de host que seu host se encontra'
+Hostname = '' # Altere para o nome do seu Host 
 
 
 
@@ -4313,7 +4313,7 @@ with open (file_path,'w') as grafana: #abre um arquivo onde a variavel a cima de
   json.dump(grafanajson, grafana)
 
   #Caso o arquivo não esteja nesse direcionamente altere para onde a pasta com o código se encontra 
-diretorio = 'C:\\Users\\User\\Desktop\\projetos\\GrafanaCreate\\json' #defina o diretório onde o json foi salvo  
+diretorio = 'C:Local\\Do\\GrafanaCreate\\json' #defina o diretório onde o json foi salvo  
 
 os.startfile(diretorio) 
 #abre o explorador de arquivos onde o json está. 
